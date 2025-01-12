@@ -14,7 +14,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-		origin: ['https://chit-chat-app-aoy3.onrender.com','https://chit-chat-lite.netlify.app'], // your frontend's origin
+		origin: ['https://chit-chat-app-o9xj.onrender.com'], // your frontend's origin
     methods: ['GET', 'POST'],
     credentials: true
   }
