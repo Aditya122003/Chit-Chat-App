@@ -18,7 +18,7 @@ const __dirname = path.resolve();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: ['https://chit-chat-lite.netlify.app','https://chit-chat-app-aoy3.onrender.com'], // your frontend's origin
+  origin: ['https://chit-chat-lite.netlify.app','https://chit-chat-app-o9xj.onrender.com'], // your frontend's origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // allowed methods
   credentials: true // if you need to send cookies or authorization headers
 }));
